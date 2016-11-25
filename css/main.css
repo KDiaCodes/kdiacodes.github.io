@@ -6,7 +6,7 @@ a, html, body, h1, h2, h3, h4, h5, p {
 }
 
 body {
-  background: url('../images/bg.gif');
+  background: url('.background' : 'url(\'images/background'+randomNumber+'.jpg\')',');
   background-size: cover;
   background-repeat: no-repeat;
 }
