@@ -5,11 +5,7 @@ a, html, body, h1, h2, h3, h4, h5, p {
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
-  background: url('.background' : 'url(\'images/background'+randomNumber+'.jpg\')',');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 
 .credits {
     position: absolute;
