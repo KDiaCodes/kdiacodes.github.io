@@ -112,6 +112,7 @@ a.button:hover {
 .white {background-color:white;}
 .grey {background-color:#3B425B;}
 .lightblue {background-color:#14BAE4;}
+.red {background-color:red;}
 
 @media screen and (max-width: 500px) {
   br {
