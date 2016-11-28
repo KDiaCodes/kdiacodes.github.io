@@ -29,19 +29,34 @@
     <!-- CSS/JS stuff -->
 <link href="css/main.css" type="text/css" rel="stylesheet">
 
-    <script src="jquery.min.js"></script>
-<script src="jquery.random-wall.min.js"></script>
+   
 
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
   </head>
 
   <body>
-<div id="random-wall" > <script>
-$("#random-wall").randomwall({
-  delay_time: 0, // default: 0 miliseconds (optional)
-});
-</script></div>
+  <div id="random-wall">
+    <div class="overlay"></div>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="js/jquery.random-wall.min.js"></script>
+  <script>
+  (function($){
+    $(function() {
+      $("#random-wall").randomwall({
+        // set random image pool manually (optional)
+        delay_time: 3000,
+        image_list: ['http://i.imgur.com/CiAvVQL.jpg',
+                     'http://i.imgur.com/qC5Nprs.jpg',
+                     'http://i.imgur.com/fckzvp1.jpg',
+                     'http://i.imgur.com/od4QZ8C.jpg'],
+      });
+    });
+  }(jQuery));
+  </script>
+	  
     <div class="overlay_black">
 
       <div class="center_page">
