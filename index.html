@@ -29,14 +29,19 @@
     <!-- CSS/JS stuff -->
 <link href="css/main.css" type="text/css" rel="stylesheet">
 
-    
+    <script src="jquery.min.js"></script>
+<script src="jquery.random-wall.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
   </head>
 
   <body>
-
+<div id="random-wall" > <script>
+$("#random-wall").randomwall({
+  delay_time: 0, // default: 0 miliseconds (optional)
+});
+</script></div>
     <div class="overlay_black">
 
       <div class="center_page">
