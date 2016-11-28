@@ -5,10 +5,7 @@ a, html, body, h1, h2, h3, h4, h5, p {
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
-   background: url('../images/background1.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
+background: url(images/background-0.jpg) no-repeat;
  }
 
 .credits {
