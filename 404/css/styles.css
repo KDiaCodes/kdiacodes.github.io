@@ -56,7 +56,7 @@ a.button:hover {
 }
 .center_page {
   position: fixed;
-  top: 540;
+  top: 580px;
   left:960px;
   transform: translate(-50%, -50%);
 }
