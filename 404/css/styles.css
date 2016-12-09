@@ -1,4 +1,4 @@
-body {
+.body {
     background: url("../img/gpaper.jpg");
     width: 800px;
     height: 80%;
@@ -22,14 +22,19 @@ p {
     font-size: 35px;
 }
 
-div {
+div.bois {
+    overflow: visible;
     margin-top: 98px;
     height: 400px;
     width: 800px;
     position: relative;
     
 }
-
-div:hover {
+div.toy {
     overflow: visible;
+    margin-top: 98px;
+    height: 400px;
+    width: 800px;
+    position: relative;
+    
 }
