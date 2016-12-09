@@ -58,7 +58,7 @@ a.button:hover {
   position: fixed;
   top: 580px;
   left:960px;
-  transform: translate(-50%, -50%);
+  transform: translate(500px, 960px);
 }
 .box {
     background: rgba(0, 0, 0, 0.7);
