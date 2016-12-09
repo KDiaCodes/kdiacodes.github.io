@@ -1,0 +1,35 @@
+body {
+    background: url("../img/gpaper.jpg");
+    width: 800px;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 800px;
+    position: absolute;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    display: block;
+    position: absolute;
+    top: 413px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 35px;
+}
+
+div {
+    margin-top: 98px;
+    height: 400px;
+    width: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+div:hover {
+    overflow: visible;
+}
