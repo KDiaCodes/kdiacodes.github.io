@@ -9,7 +9,6 @@ body {
 img {
     width: 800px;
     position: absolute;
-    display: block;
     margin-right: auto;
     margin-left: auto;
 }
