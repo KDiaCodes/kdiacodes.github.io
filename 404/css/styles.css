@@ -9,31 +9,27 @@ body {
 img {
     width: 800px;
     position: absolute;
+    display: block;
     margin-right: auto;
     margin-left: auto;
 }
 
 p {
+    display: block;
     position: absolute;
     top: 413px;
     font-family: 'Nothing You Could Do', cursive;
     font-size: 35px;
-    overflow: visible;
 }
 
-div.boi {
-    overflow: visible;
+div {
     margin-top: 98px;
     height: 400px;
     width: 800px;
     position: relative;
-    
+    overflow: hidden;
 }
-div.toy {
+
+div:hover {
     overflow: visible;
-    margin-top: 98px;
-    height: 400px;
-    width: 800px;
-    position: relative;
-    
 }
