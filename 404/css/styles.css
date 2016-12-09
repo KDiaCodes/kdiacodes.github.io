@@ -54,3 +54,9 @@ a.button:hover {
   color: white;
   width: 100%;
 }
+.center_page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
