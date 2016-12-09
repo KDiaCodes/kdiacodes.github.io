@@ -33,3 +33,24 @@ div {
 div:hover {
     overflow: visible;
 }
+a.button {
+  font-family: Arial, FontAwesome;
+  border-radius: 5px;
+  font-size: 5vmin;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+a.button:hover {
+  transition: all 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.button_line {
+  color: white;
+  width: 100%;
+}
