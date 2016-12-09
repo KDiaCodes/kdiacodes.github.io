@@ -27,7 +27,7 @@ div {
     height: 400px;
     width: 800px;
     position: relative;
-    overflow: hidden;
+    
 }
 
 div:hover {
