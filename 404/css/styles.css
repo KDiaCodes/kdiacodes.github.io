@@ -60,3 +60,12 @@ a.button:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media screen and (max-width: 500px) {
+  br {
+    display: block;
+  }
+
+  a.button {
+    font-size: 7vmin;
+  }
+}
