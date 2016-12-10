@@ -55,9 +55,9 @@ a.button:hover {
   width: 100%;
 }
 .center_page {
-  position: fixed;
-  top: -490px;
-  left:-500px;
+  position: relative;
+  top: 580px;
+  left:960px;
   transform: translate(500px, 960px);
 }
 .box {
