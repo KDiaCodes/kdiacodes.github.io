@@ -109,7 +109,7 @@ a.button:hover {
 .grey {background-color:#3B425B;}
 .lightblue {background-color:#14BAE4;}
 .red {background-color:red;}
-.lightgreen {background-color:lightGreen;}
+.lightgreen {background-color:#32CD32;}
 
 @media screen and (max-width: 500px) {
   br {
