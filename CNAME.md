@@ -1,1 +1,1 @@
-www.kdiacoding.tk
+www.kdiacoding.ga
