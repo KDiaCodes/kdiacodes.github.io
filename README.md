@@ -1,5 +1,5 @@
 # KDiaCoding.github.io | Details
-Website: https://KDiaCoding.github.io
+Website: https://KDiaCodes.github.io
 Font & Icons: http://fontawesome.io
 
 ## Credits
