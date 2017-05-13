@@ -50,15 +50,18 @@ a.button:hover {
   transition: all 0.5s ease;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.center_page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.white-text {color:white;}
 .button_line {
   color: white;
   width: 100%;
-}
-.center_page {
-  position: relative;
-  top: 580px;
-  left:960px;
-  transform: translate(500px, 960px);
 }
 .box {
     background: rgba(0, 0, 0, 0.7);
@@ -66,6 +69,12 @@ a.button:hover {
     padding-left: 10px;
     padding-top: 10px;
 }
+
+.button_line {
+  color: white;
+  width: 100%;
+}
+
 @media screen and (max-width: 500px) {
   br {
     display: block;
